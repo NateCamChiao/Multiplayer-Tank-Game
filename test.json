@@ -1,0 +1,22 @@
+{
+    "tiles": [
+        {"x": 3, "y": 4},
+        {"x": 8, "y": 1},
+        {"x": 5, "y": 9},
+        {"x": 6, "y": 2},
+        {"x": 9, "y": 7}
+    ],
+    "dimensions": {
+        "width": 15,
+        "height": 10
+    },
+    "colors": {
+        "background": {
+            "fill": "#202020"
+        },
+        "block": {
+            "fill": "#202325",
+            "stroke": "#D3D3D3"
+        }
+    }
+}
