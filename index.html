@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <dialog id ="death-message-container">
+        <div class="inner">
+            <h1>You Died!</h1>
+        </div>
+    </dialog>
+    <div class="top-stats">
+        <div class="nickname-container">
+            <label for="nickname">Nickname</label>
+            <input type="text" name="" id="nickname" placeholder="player" maxlength="10">
+            <button onclick="sendName()">Enter</button>
+        </div>
+        <div class="stats">
+            <p id = "health-elm">Health:100</p>
+            <p id = "kd-counter">Kill/Death: 0/0</p>
+        </div>
+        
+    </div>
+    <canvas id = "canvas"></canvas>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="player.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

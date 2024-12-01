@@ -1,0 +1,38 @@
+body{
+    margin: 0;
+    background-color:#252525;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+canvas{
+    outline: 2px solid skyblue;
+}
+
+.top-stats{
+    display: flex;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.stats{
+    display: flex;
+    color: #5f5f5f;
+    gap: 1rem;
+}
+
+.nickname-container{
+    display: flex;
+    color: #b8b8b8;
+    gap: 10px;
+    padding: 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+
+.death-message-container{
+    /* transform: translateY(-); */
+
+}
+
